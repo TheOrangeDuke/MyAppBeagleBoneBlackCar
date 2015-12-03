@@ -1,7 +1,7 @@
 package com.myselia.myapp.beagleboneblackcar;
 
 import com.myselia.myapp.beagleboneblackcar.ui.CarController;
-import com.myselia.sandbox.runtime.templates.MyseliaMasterModule;
+import com.myselia.sandbox.templates.MyseliaMasterModule;
 
 public class Master extends MyseliaMasterModule{
 	
@@ -11,15 +11,5 @@ public class Master extends MyseliaMasterModule{
 		System.out.println("Master Module Instantiated");
 	}
 
-	@Override
-	public void setup() {
-		System.out.println("MASTERLOL");
-		troll.setFrame();
-	}
-
-	@Override
-	protected void tick() {
-		
-	}
 
 }

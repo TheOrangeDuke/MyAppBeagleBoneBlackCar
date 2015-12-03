@@ -1,6 +1,6 @@
 package com.myselia.myapp.beagleboneblackcar;
 
-import com.myselia.sandbox.runtime.templates.MyseliaSlaveModule;
+import com.myselia.sandbox.templates.MyseliaSlaveModule;
 
 public class Slave extends MyseliaSlaveModule {
 	
@@ -8,14 +8,5 @@ public class Slave extends MyseliaSlaveModule {
 		System.out.println("Slave Module Instantiated");
 	}
 
-	@Override
-	public void setup() {
-		System.out.println("SLAVELOL");
-	}
-
-	@Override
-	protected void tick() {
-		
-	}
 
 }
